@@ -9,7 +9,7 @@ var app = express();
         routes(app);
         
 //	var port = server.listen(process.env.PORT || 3000);
-        app.listen(process.env.PORT, function(){
+        app.listen(8080, function(){
         console.log("listening on port "+ process.env.PORT);
         });
 
